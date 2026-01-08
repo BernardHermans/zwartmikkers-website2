@@ -7,19 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="about.html" />
-    <Content Include="index.html" />
-    <Content Include="Style.css" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="about.html">
+    <None Include="wwwroot\about.html">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
-    <None Update="index.html">
+    <None Include="wwwroot\index.html">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
-    <None Update="Style.css">
+    <None Include="wwwroot\Style.css">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
   </ItemGroup>
