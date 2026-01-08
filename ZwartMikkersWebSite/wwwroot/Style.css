@@ -13,9 +13,10 @@ html, body {
     overflow: hidden;
 }
 
-.container {
-    height: 100dvh; /* dynamic viewport height */
-    width: 100%;
+
+/* App wrapper MUST have a height */
+#app {
+    height: 100dvh;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
 }
