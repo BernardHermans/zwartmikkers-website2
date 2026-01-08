@@ -1,0 +1,85 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* full height */
+    width: 100%; /* full width */
+    overflow-x: hidden; /* prevent horizontal scroll */
+}
+
+.container {
+    height: 100vh; /* viewport height */
+    width: 100vw; /* viewport width */
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.slide {
+    min-height: 100vh; /* full height per slide */
+    width: 100vw; /* full width */
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.home {
+    background: #1e1e1e;
+    color: white;
+}
+
+.about {
+    background: #f4f4f4;
+}
+
+
+.contact {
+    background: #333;
+    color: white;
+}
+
+.calendar {
+    background: #fff;
+}
+
+.calendar-container {
+    width: 100%;
+    max-width: 900px;
+    height: 70vh;
+}
+
+.calendar-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.location {
+    background: #f4f4f4;
+}
+
+    .location select {
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+.map-container {
+    width: 100%;
+    max-width: 900px;
+    height: 60vh;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
